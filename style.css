@@ -1,0 +1,27 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: #ffebcd;
+    text-align: center;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    grid-template-rows: repeat(10, 40px);
+    gap: 2px;
+    margin: 20px auto;
+}
+
+#grid div {
+    border: 1px solid #333;
+    background: #fff;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+input, button {
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
